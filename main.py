@@ -9,5 +9,5 @@ def isQuestion(str):
 
 def findWord(str, word):
     return str.find(word) != -1
-    
+
 getUserInput()
