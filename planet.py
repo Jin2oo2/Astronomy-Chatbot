@@ -12,4 +12,4 @@ def getPlanet(planet):
     response = requests.get(url, headers={'X-Api-Key': API_KEY})
     return response.text
 
-# print(getPlanet('Earth'))                                
+print(getPlanet('Earth'))                                
