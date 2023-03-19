@@ -1,6 +1,7 @@
-def getUserInput():
-    i = input('Hello! \n')
-    print(i)
+import planet
+
+def getUserInput(message):
+    i = input(message + '\n')
     return i
 
 def isQuestion(str):
@@ -10,4 +11,12 @@ def isQuestion(str):
 def findWord(str, word):
     return str.find(word) != -1
 
-getUserInput()
+def startChat():
+    userInput = getUserInput('Hello!')
+    while True:
+        if userInput == '' or userInput.find('Bye') != -1:
+            break
+
+#getUserInput()
+#print(planet.getPlanet('Earth'))
+startChat()
