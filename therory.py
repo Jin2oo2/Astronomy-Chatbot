@@ -183,10 +183,6 @@ def get_inp():
         elif i=="Theories" or "theories":
             tHeories()
 
-    if y.find('Astoromy') != -1:
-        astro_101
-    
-   
 
 # get_inp()
 
