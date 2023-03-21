@@ -1,4 +1,5 @@
 import planet
+import therory
 
 def getUserInput(message):
     i = input(message + '\n')
@@ -19,4 +20,5 @@ def startChat():
 
 #getUserInput()
 #print(planet.getPlanet('Earth'))
-startChat()
+#startChat()
+#print(therory.astro_101())
