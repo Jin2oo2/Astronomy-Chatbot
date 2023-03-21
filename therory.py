@@ -185,7 +185,7 @@ def get_inp():
 
     if y.find('Astoromy') != -1:
         astro_101
-    elif 
+    
    
 
 # get_inp()
