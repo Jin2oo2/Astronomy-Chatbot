@@ -19,6 +19,6 @@ def startChat():
             break
 
 #getUserInput()
-#print(planet.getPlanet('Earth'))
+print(planet.getPlanet('Earth'))
 #startChat()
 #print(therory.astro_101())

@@ -52,7 +52,7 @@ def tHeories():
     l=input("What would you like to talk about? ")
     v=l.split()
     for i in v:
-         if i=="Big" or i=="Bang" or i=="big" or i=="bang":
+         if  i=="Bang"  or i=="bang":
             print("All right young astronaut")
             sleep(2)
             print("So you have chosen to go to the beginning of everything......")
