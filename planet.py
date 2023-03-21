@@ -13,7 +13,10 @@ def getPlanet(planet):
     planet = planet.capitalize()
     url = 'https://api.api-ninjas.com/v1/planets?name={}'.format(planet)
     response = requests.get(url, headers={'X-Api-Key': API_KEY})
-    return response.text
+    parsed = response.json()[0]
+    planetInfo = 'Name: ' + parsed['name'] + '\n' + 'Mass: ' + str(parsed['mass']) + 'x10^27kg\n' + 'Orbital period: ' + str(parsed['period']) + ' days\n' + 'Temperature: ' + str(round(parsed['temperature']-273.15, 2)) + '°C\n' + 'Distance from Earth: ' + str(parsed['distance_light_year']) + ' light years\n'
+
+    return planetInfo
 
 def getRandomPlanet():
     planet = planets[random.randint(0, len(planets)-1)]
@@ -21,4 +24,4 @@ def getRandomPlanet():
 
 #print(getRandomPlanet())
 
-#print(getPlanet('Earth'))                                
+print(getPlanet('Earth'))                                
