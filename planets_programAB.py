@@ -1,5 +1,6 @@
 # this part of the chatbot will provide some generic information about 8 planets in solar system.
 import therory
+import planet
 
 
 def get_planet_info(planet):
@@ -39,20 +40,28 @@ def planet_astronomy():
             break
         elif user_input == "mercury":
             print(get_planet_info("Mercury"))
+            print(planet.getPlanet('Mercury'))
         elif user_input == "venus":
             print(get_planet_info("Venus"))
+            print(planet.getPlanet('Venus'))
         elif user_input == "earth":
             print(get_planet_info("Earth"))
+            print(planet.getPlanet('Earth'))
         elif user_input == "mars":
             print(get_planet_info("Mars"))
+            print(planet.getPlanet('Mars'))
         elif user_input == "jupiter":
             print(get_planet_info("Jupiter"))
+            print(planet.getPlanet('Jupiter'))
         elif user_input == "saturn":
             print(get_planet_info("Saturn"))
+            print(planet.getPlanet('Saturn'))
         elif user_input == "uranus":
             print(get_planet_info("Uranus"))
+            print(planet.getPlanet('Uranus'))
         elif user_input == "neptune":
             print(get_planet_info("Neptune"))
+            print(planet.getPlanet('Neptune'))
         elif user_input == '101':
             print(therory.astro_101())
         
