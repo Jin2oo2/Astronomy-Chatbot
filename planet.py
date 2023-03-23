@@ -23,10 +23,20 @@ def getPlanet(planet):
 
     return planetInfo
 
+def getSolarSystemPlanets():
+    solarSystemPlanets = []
+    for i in planets:
+        url = 'https://api.api-ninjas.com/v1/planets?name={}'.format(i)
+        response = requests.get(url, headers={'X-Api-Key': API_KEY})
+        solarSystemPlanets.append(response.json()[0])
+    return solarSystemPlanets
+
 def getRandomPlanet():
     planet = planets[random.randint(0, len(planets)-1)]
     return getPlanet(planet)
 
-#print(getRandomPlanet())
-
 #print(getPlanet('Earth'))                                
+
+#print(getSolarSystemPlanets())
+
+#print(getRandomPlanet())
