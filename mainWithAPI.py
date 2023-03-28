@@ -27,12 +27,12 @@ def get_planet_info(planet):
     }
 
     if planet in distance_from_sun and planet in temperature:
-        return f"Here is some general information about the planet you asked for.\n {planet} is approximately {distance_from_sun[planet]} away from the Sun and has an average temperature of {temperature[planet]}. \n."
+        return f"Here is some general information about the planet you asked for.\n{planet} is approximately {distance_from_sun[planet]} away from the Sun and has an average temperature of {temperature[planet]}. \n"
     else:
         return "I do apologive for that, I'm still learning to fetch more and more information. \nAt the moment, I don't have any information about that planet. Would you like to enter another planet name? "
 
 
-def planet_astronomy():
+def start_chat():
     print("Hi, \nAs part of Astronomy Chatbot, I can provide you well established information on planets in our solar system! \nWhich planet would you feel like to learn about?")
     while True:
         user_input = input(">>> ").lower()
@@ -74,4 +74,4 @@ def planet_astronomy():
         
         print('Would like to get some more information on any other planet? if not type: exit')
 
-planet_astronomy()
+start_chat()
