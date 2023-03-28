@@ -16,8 +16,8 @@ There are Four members in this group, making an astronomy chatbit. Everyone equa
 
 - **Abdullah Abdullah - 11337261**
 - **Jinta Noda - 13202747**
-- **Shunkh Chohan - ** 
-- **Savan Patel - edjbde**
+- **Shunkh Chohan - 13399209**
+- **Savan Patel - 13344759**
 
 # Final Verdict
 The whole project work went very smooth and every member showed co-operation to each other while doing different tasks. Hope you'll enjoy using that chatbot and will find it faultless. :)
