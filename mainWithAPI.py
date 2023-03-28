@@ -27,7 +27,7 @@ def get_planet_info(planet):
     }
 
     if planet in distance_from_sun and planet in temperature:
-        return f"Here is some general information about the planet you asked for.\n {planet} is approximately {distance_from_sun[planet]} away from the Sun and has an average temperature of {temperature[planet]}. \n \nWould like to get some more information on any other planet? if not type 'exit'."
+        return f"Here is some general information about the planet you asked for.\n {planet} is approximately {distance_from_sun[planet]} away from the Sun and has an average temperature of {temperature[planet]}. \n."
     else:
         return "I do apologive for that, I'm still learning to fetch more and more information. \nAt the moment, I don't have any information about that planet. Would you like to enter another planet name? "
 
@@ -64,9 +64,14 @@ def planet_astronomy():
             print(planet.getPlanet('Neptune'))
         elif user_input == '101':
             print(therory.astro_101())
-        
+        elif user_input=="theories" or user_input=='Theories':
+            print(therory.tHeories())
+        elif user_input=="habitable" or user_input=="Habitable":
+            print(therory.tHeories())
 
         else:
             print("\nI'm sorry, I don't recognize that planet. Here is the list of 8 planets:\n \n Mercury \n Venus \n Earth \n Mars \n Jupiter \n Saturn \n Uranus \n Neptune \n \nTry enetering one of these planet names or type 'exit' to terminate.")
+        
+        print('Would like to get some more information on any other planet? if not type: exit')
 
 planet_astronomy()
