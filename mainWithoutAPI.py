@@ -56,6 +56,10 @@ def planet_astronomy():
             print(get_planet_info("Neptune"))
         elif user_input == '101':
             print(therory.astro_101())
+        elif user_input=="theories" or user_input=='Theories':
+            print(therory.tHeories())
+        elif user_input=="habitable" or user_input=="Habitable":
+            print(therory.tHeories())
         
 
         else:
