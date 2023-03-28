@@ -16,7 +16,7 @@ There are Four members in this group, making an astronomy chatbit. Everyone equa
 
 - **Abdullah Abdullah - 11337261**
 - **Jinta Noda - 13202747**
-- **Shunkh Chohan - 13399209**
+- **Shunkh Chauhan - 13399209**
 - **Savan Patel - 13344759**
 
 # Final Verdict
