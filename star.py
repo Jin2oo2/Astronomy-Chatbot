@@ -11,7 +11,7 @@ def astronomyFact():
     time.sleep(2)
     print("And it even includes questions about things we can't see at all, like dark matter and dark energy")
     time.sleep(2)
-    print("Today, We are talking about the various stars in astronomy.")
+    print("Today, We are talking about the various stars and different facts about astronomy.")
     time.sleep(2)
 
  #########################################################################################
