@@ -213,8 +213,3 @@ def facts_astronomy():
             time.sleep(2)
             print("The telescope is as big as a school bus and weighs two adult elephants. It orbits the Earth at a speed of 17,000 miles per hour (27,000 km/h).")
             time.sleep(2)
-
-
-astronomyFact()
-star_theories()
-facts_astronomy()
