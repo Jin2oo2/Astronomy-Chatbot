@@ -60,7 +60,7 @@ def planet_astronomy():
         elif user_input=="theories" or user_input=='Theories':
             print(therory.tHeories())
         elif user_input=="habitable" or user_input=="Habitable":
-            print(therory.tHeories())
+            print(therory.GetDataOnPlanets())
         elif user_input=="greeting" or user_input=="Greeting" or user_input=="GREETING":
             print(star.astronomyFact())
         elif user_input=="stars" or user_input=="Stars" or user_input=="STARS":
