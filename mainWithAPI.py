@@ -68,6 +68,12 @@ def start_chat():
             print(therory.tHeories())
         elif user_input=="habitable" or user_input=="Habitable":
             print(therory.tHeories())
+        elif user_input=="greeting" or user_input=="Greeting" or user_input=="GREETING":
+            print(star.astronomyFact())
+        elif user_input=="stars" or user_input=="Stars" or user_input=="STARS":
+            print(star.star_theories())
+        elif user_input=="facts" or user_input=="Facts" or user_input=="FACTS":
+            print(star.facts_astronomy())    
 
         else:
             print("\nI'm sorry, I don't recognize that planet. Here is the list of 8 planets:\n \n Mercury \n Venus \n Earth \n Mars \n Jupiter \n Saturn \n Uranus \n Neptune \n \nTry enetering one of these planet names or type 'exit' to terminate.")
