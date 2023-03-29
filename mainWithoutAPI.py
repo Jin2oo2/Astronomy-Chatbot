@@ -33,7 +33,7 @@ def get_planet_info(planet):
 
 
 def planet_astronomy():
-    print("Hi, \nAs part of Astronomy Chatbot, I can provide you well established information on planets in our solar system! \nWhich planet would you feel like to learn about?")
+    print("Hi, \nAs the Astronomy Chatbot, I can provide you well established information on planets in our solar system!,I can tell you about fascinating theories,stars and other habitable planets and if you don't know where to start,just type in 101! \nWhich planet would you feel like to learn about?")
     while True:
         user_input = input(">>> ").lower()
         if user_input == "exit":
