@@ -1,6 +1,7 @@
 # this part of the chatbot will provide some generic information about 8 planets in solar system.
 import therory
 import planet
+import star
 
 
 def get_planet_info(planet):
