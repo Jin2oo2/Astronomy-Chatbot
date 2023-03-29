@@ -34,10 +34,10 @@ def get_planet_info(planet):
 
 
 def start_chat():
-    print("Hi, \nAs part of Astronomy Chatbot, I can provide you well established information on planets in our solar system! \nWhich planet would you feel like to learn about?")
+    print("Hi, \nAs part of Astronomy Chatbot, I can provide you well established information on planets in our solar system,fascinating space theories,data on other habitable pnaets like the earth,if you don't know where to start just ype in 101 \nWhich planet would you feel like to learn about?")
     while True:
         user_input = input(">>> ").lower()
-        if user_input == "exit":
+        if user_input == "GoodBye" or user_input=="Goodbye" or user_input=="Bye" or user _input=="See ya":
             break
         elif user_input == "mercury":
             print(get_planet_info("Mercury"))
@@ -77,7 +77,7 @@ def start_chat():
             print(star.facts_astronomy())    
 
         else:
-            print("\nI'm sorry, I don't recognize that planet. Here is the list of 8 planets:\n \n Mercury \n Venus \n Earth \n Mars \n Jupiter \n Saturn \n Uranus \n Neptune \n \nTry enetering one of these planet names or type 'exit' to terminate.")
+            print("\nI'm sorry, I don't recognize that topic ,would you be kind enough to tell me again?? \n \nOr if you're done just say GoodBye")
         
         print('Would like to get some more information on any other planet? if not type: exit')
 
