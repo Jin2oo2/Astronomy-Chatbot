@@ -9,7 +9,10 @@ In order to run the chatbot on system. There are some basic nsteps needs to be f
 
 - Install python on your system
 - Need to Clone the repository from GitHub: `https://github.com/Jin2oo2/Astronomy-Chatbot.git`
-- Execute or run the file as: 
+- There are 2 types of main file to run: mainWithAPI.py and mainWithoutAPI
+- You can pick the one you want
+- Note that mainWithAPI.py needs you to sign up for https://api-ninjas.com/api/planets and save your API key in .env file to fully run the code
+- Execute or run the file on your terminal as following: ``
 
 # Team Members
 There are Four members in this group, making an astronomy chatbit. Everyone equally contributed towards the completion of the final chatbot.
