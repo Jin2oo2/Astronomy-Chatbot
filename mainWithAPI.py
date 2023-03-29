@@ -37,7 +37,7 @@ def start_chat():
     print("Hi, \nAs part of Astronomy Chatbot, I can provide you well established information on planets in our solar system,fascinating space theories,data on other habitable pnaets like the earth,if you don't know where to start just ype in 101 \nWhich planet would you feel like to learn about?")
     while True:
         user_input = input(">>> ").lower()
-        if user_input == "GoodBye" or user_input=="Goodbye" or user_input=="Bye" or user _input=="See ya":
+        if user_input == "GoodBye" or user_input=="Goodbye" or user_input=="Bye" or user_input=="See ya":
             break
         elif user_input == "mercury":
             print(get_planet_info("Mercury"))
